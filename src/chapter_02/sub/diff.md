@@ -1,13 +1,12 @@
-## See changes to a file
+## See Changes to a File
 
-You will be able to see to see the change with:
+To view changes, you can use:
 
 ```bash
 git diff
 ```
 
-command or by using third party softwares like `meld` and config it
-in your `~/.gitconfig`. Here is a small example:
+You can also use third-party software like `meld` by configuring it in your `~/.gitconfig` file. Here’s a small example:
 
 ```ini
 ...
@@ -21,7 +20,7 @@ in your `~/.gitconfig`. Here is a small example:
   prompt = false
 ```
 
-Compare the difference between working directory and the last commit:
+To compare the difference between the working directory and the last commit:
 
 ```bash
 git diff HEAD
@@ -35,14 +34,14 @@ git diff --staged HEAD
 git difftool --staged HEAD
 ```
 
-Limit Comparsons to one File:
+To limit comparisons to a single file:
 
 ```bash
 git diff -- <file>
 git difftool -- <file>
 ```
 
-Comparing Between Local and Remote Master Branches:
+To compare the local master branch with the remote master branch:
 
 ```bash
 git diff master origin/master

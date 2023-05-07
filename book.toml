@@ -1,7 +1,10 @@
 [book]
-title = "Notebook"
-authors = ["Mohammadreza (Raymond)"]
-description = "A collection of my notes"
-language = "en"
-multilingual = false
+title = "Atlas: A Learning Journey"
+authors = ["Mohammad"]
+description = "A curated collection of my discoveries"
 src = "src"
+language = "en"
+multilingual= true
+
+[output.html]
+git-repository-url = "https://github.com/slash071/atlas"

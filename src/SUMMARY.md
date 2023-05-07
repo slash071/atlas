@@ -1,11 +1,15 @@
-# Contents
+# Atlas: A Learning Journey
 
-- [Summary](./SUMMARY.md)
+[Introduction](introduction.md)
+
+## Markdown
 
 - [Markdown](./chapter_01/chapter_01.md)
 
   - [Basics](./chapter_01/sub/basics.md)
   - [Beyond Original](./chapter_01/sub/beyond_original.md)
+
+## Git
 
 - [Git](./chapter_02/chapter_02.md)
 

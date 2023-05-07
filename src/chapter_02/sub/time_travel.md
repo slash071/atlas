@@ -1,4 +1,4 @@
-## Time travel
+## Time Travel with Git
 
 Going back commits:
 
@@ -7,38 +7,38 @@ git reset HEAD^    #one commit
 git reset HEAD^^^  #three commit
 ```
 
-Moving forward commits:
+If you've gone back, you can move forward again using `reflog` to find the desired commit ID:
 
 ```bash
-git reflog  #shows everything
+git reflog          # shows all past commits and changes
 git reset <commit-ID>
+
 ```
 
-reset command is powerful but it can get you in trouble, uneless
-you know `reflog` so it get you out of trouble.
+The `reset` command is powerful but can cause issues. `reflog` can help you recover if needed.
 
 ## Types of reset
 
 #### --hard
 
-This is the most direct, DANGEROUS, and frequently used option.
+This option is dangerous but commonly used. It updates the commit history (ref pointers) to the specified commit, and resets both the staging area and working directory to match that commit, discarding any uncommitted changes:
 
-When passed --hard The Commit History ref pointers are updated to
-the specified commit. Then, the Staging Index and Working Directory
-are reset to match that of the specified commit. Any previously
-pending changes to the Staging Index and the Working Directory gets
-reset to match the state of the Commit Tree.
+```bash
+git reset --hard <commit-ID>
+```
 
 #### --mixed
 
-This is the default operating mode. The ref pointers are updated.
+This is the default mode. It updates the ref pointers and the staging area to match the specified commit, but leaves any changes unstaged in the working directory:
 
-The Staging Index is reset to the state of the specified commit.
-Any changes that have been undone from the Staging Index are moved
-to the Working Directory.
+```bash
+git reset --mixed <commit-ID>
+```
 
 #### --soft
 
-When the --soft argument is passed, the ref pointers are updated and
-the reset stops there. The Staging Index and the Working Directory
-are left untouched. This behavior can be hard to clearly demonstrate.
+This mode only updates the ref pointers without altering the staging area or working directory, allowing you to keep staged and unstaged changes as they are. This behavior can be hard to clearly demonstrate.
+
+```bash
+git reset --soft <commit-ID>
+```
