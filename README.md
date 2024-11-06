@@ -22,7 +22,9 @@ Atlas is accessible in two convenient ways:
 - Online: You can read Atlas on [GitHub Pages](https://slash071.github.io/atlas/), making it easy to access from anywhere.
 - Locally: For offline access, you can build and serve the book on your computer.
 
-To view Atlas locally, follow these steps:
+## Getting Started
+
+To read Atlas locally, you can build and serve the book using `mdBook`. Follow these steps:
 
 1. Install [mdBook](https://rust-lang.github.io/mdBook/).
 2. Clone the repository:
@@ -35,7 +37,7 @@ git clone --depth=1 https://github.com/slash071/atlas.git
 
 ```bash
 cd atlas
-mdBook serve --open
+mdbook serve --open
 ```
 
 This will host Atlas on a local server, which you can view in your browser at `http://localhost:3000`.

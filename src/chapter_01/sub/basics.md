@@ -42,14 +42,14 @@ Next, I will write a **very** **strong** or bold text, also in two different way
     __very__
     **strong**
 
+> Try to use asterisks more because it is a safer version across multiple
+> flavors of Markdown.
+
 This example will contain an _intra_ word emphasis. This is a variable name var_example_int, but Markdown will render emphasis by default. So Markdown is going to see single underscores and render text between them as emphasis; it doesn't matter what characters are around it, and it still renders it. So how do we stop that? Because sometimes, like above, we might have a variable name. By using the backslash:
 
     var\_example\_int
 
 And although it's not required to escape both backslashes like above, escaping one of them can do the job as well.
-
-> Try to use asterisks more because it is a safer version across multiple
-> flavors of Markdown.
 
 #### Quotes
 

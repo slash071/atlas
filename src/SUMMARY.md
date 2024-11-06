@@ -19,3 +19,13 @@
   - [Stashing](./chapter_02/sub/stashing.md)
   - [Tagging](./chapter_02/sub/tagging.md)
   - [Time Travel](./chapter_02/sub/time_travel.md)
+
+## SQLite
+
+- [SQLite](./chapter_03/chapter_03.md)
+
+  - [Intro](./chapter_03/sub/intro.md)
+  - [Quick Start](./chapter_03/sub/quick_start.md)
+  - [Data Operations](./chapter_03/sub/data_opreations.md)
+  - [Advanced SELECT](./chapter_03/sub/advanced_select.md)
+  - [Embedding SQLite](./chapter_03/sub/embedding_sqlite.md)
