@@ -15,6 +15,8 @@ You can use Atlas in two main ways:
 
 Each chapter is self-contained, making it easy to explore one section without needing to fully read the others.
 
+<<<<<<< HEAD
+
 ## Accessing Atlas
 
 Atlas is accessible in two convenient ways:
@@ -22,13 +24,23 @@ Atlas is accessible in two convenient ways:
 - Online: You can read Atlas on [GitHub Pages](https://slash071.github.io/atlas/), making it easy to access from anywhere.
 - Locally: For offline access, you can build and serve the book on your computer.
 
-To view Atlas locally, follow these steps:
+# To view Atlas locally, follow these steps:
+
+## Getting Started
+
+To read Atlas locally, you can build and serve the book using `mdBook`. Follow these steps:
+
+> > > > > > > b84f82c (Update structure and add README)
 
 1. Install [mdBook](https://rust-lang.github.io/mdBook/).
 2. Clone the repository:
 
 ```bash
+<<<<<<< HEAD
 git clone --depth=1 https://github.com/slash071/atlas.git
+=======
+git clone --depth=1 https://github.com/yourusername/atlas.git
+>>>>>>> b84f82c (Update structure and add README)
 ```
 
 3. Navigate into the project directory and serve the book:
@@ -40,8 +52,15 @@ mdBook serve --open
 
 This will host Atlas on a local server, which you can view in your browser at `http://localhost:3000`.
 
+<<<<<<< HEAD
 Both the online and local methods provide the same content; choose whichever is most convenient.
 
 ## Contributing
 
-Atlas is a personal project, but I welcome feedback and contributions. If you find errors, have suggestions, or want to contribute additional content, feel free to [open a pull request](https://github.com/slash071/atlas/pulls) or [submit an issue](https://github.com/slash071/atlas/issues).
+# Atlas is a personal project, but I welcome feedback and contributions. If you find errors, have suggestions, or want to contribute additional content, feel free to [open a pull request](https://github.com/slash071/atlas/pulls) or [submit an issue](https://github.com/slash071/atlas/issues).
+
+## Contributing
+
+Atlas is a personal project, but I welcome feedback and contributions. If you find errors, have suggestions, or want to contribute additional content, feel free to open a pull request or submit an issue.
+
+> > > > > > > b84f82c (Update structure and add README)
